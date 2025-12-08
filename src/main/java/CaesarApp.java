@@ -150,6 +150,7 @@ public class CaesarApp {
 
         System.out.println("\nЗНАКИ ПРЕПИНАНИЯ И СИМВОЛЫ:");
 
+
         count = 0;
         for (Map.Entry<Character, String> entry : Alphabet.TEXT_TO_CAESAR.entrySet()) {
             char c = entry.getKey();
