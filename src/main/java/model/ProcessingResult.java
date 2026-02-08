@@ -9,6 +9,7 @@ public class ProcessingResult {
     private final String outputPreview;
 
 
+
     public ProcessingResult(boolean success, String message, String inputPreview, String outputPreview) {
         this.success = success;
         this.message = message;

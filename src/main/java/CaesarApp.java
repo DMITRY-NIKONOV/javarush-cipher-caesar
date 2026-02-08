@@ -160,6 +160,7 @@ public class CaesarApp {
                 count++;
             }
         }
+
         System.out.println("В словаре всего " + count + " ЗНАКОВ ПРЕПИНАНИЯ И СИМВОЛОВ");
         System.out.println("\nПримеры кодирования:");
         System.out.println("  'SOS' → ... --- ...");

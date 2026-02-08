@@ -26,7 +26,6 @@ public class ValidationService {
             throw new CaesarException("Код Морзе не может быть пустым!");
         }
 
-
         String[] symbols = morseCode.trim().split(" ");
 
         for (int i = 0; i < symbols.length; i++) {
