@@ -41,6 +41,7 @@ public class CaesarCoder {
 
         validationService.validateMorseCode(morseCode);
 
+
         StringBuilder result = new StringBuilder();
         String[] symbols = morseCode.trim().split(" ");
 

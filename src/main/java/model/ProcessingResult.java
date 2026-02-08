@@ -2,6 +2,7 @@ package model;
 
 public class ProcessingResult {
 
+
     private final boolean success;
     private final String message;
     private final String inputPreview;
