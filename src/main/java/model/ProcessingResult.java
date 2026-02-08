@@ -2,10 +2,12 @@ package model;
 
 public class ProcessingResult {
 
+
     private final boolean success;
     private final String message;
     private final String inputPreview;
     private final String outputPreview;
+
 
 
     public ProcessingResult(boolean success, String message, String inputPreview, String outputPreview) {
